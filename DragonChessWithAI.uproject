@@ -17,6 +17,14 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": true,
+				"Win64",
+				"Mac",
+				"Linux"
+			]
 		}
 	]
 }
