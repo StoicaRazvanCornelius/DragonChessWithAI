@@ -14,4 +14,6 @@ class DRAGONCHESSWITHAI_API ADragonChessWithAIGameModeBase : public AGameModeBas
 {
 	GENERATED_BODY()
 	
+public:
+	int GetTmp();
 };
