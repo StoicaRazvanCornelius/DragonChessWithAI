@@ -5,6 +5,6 @@
 
 int ADragonchessGameStateBase::GetTmp()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Message from GameMode"));
+	UE_LOG(LogTemp, Warning, TEXT("Message from GameState"));
 	return 0;
 }

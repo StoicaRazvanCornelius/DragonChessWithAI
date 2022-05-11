@@ -3,17 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Piece.h"
-#include "Test.generated.h"
+#include "GameFramework/GameModeBase.h"
+#include "DragonchessModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class DRAGONCHESSWITHAI_API ATest : public APiece
+class DRAGONCHESSWITHAI_API ADragonchessModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-public:
-	virtual int GetPrice() override;
 };
